@@ -83,6 +83,7 @@
 
 .card__topico {
     background: var(--azul-degrade);
+    padding: 1em;
 }
 
 .card__topico h2 {
@@ -99,6 +100,47 @@
     justify-content: center;
     gap: 0.5em;
     
+}
+
+.rodape {
+    padding: 1.5em;
+}
+
+
+
+.rodape__titulo {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--azul);
+}
+
+.rodape__texto {
+    font-size: 15px;
+    margin-top: 1em;
+    line-height: 24px;
+}
+
+.cadastro__email {
+        margin-top: 20px;
+        background-color: transparent;
+        border: 1px solid var(--azul);
+        color: var(--azul);
+        border-radius: 24px;
+        padding: 1em;
+        width: 90%;
+        text-align: center;
+   
+}
+
+.cadastro__email::placeholder {
+    font-family: var(--font-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--azul);
+    background: url(../img/emaill.svg);
+    background-repeat: no-repeat;
+    background-position: 2em;
 }
 
 
