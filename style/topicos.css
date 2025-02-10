@@ -41,11 +41,16 @@
 
 @media screen and (min-width:1024px) {
    
+    .card__topico {
+        background-color: red;
+    }
+    
     .contato {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    
    }
 
    .cadastro__email {
