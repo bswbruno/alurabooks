@@ -124,3 +124,14 @@
     }
 
 }
+
+@media screen and (min-width:1728px) {
+    
+    .container-texto__header {
+        
+        
+
+        text-decoration: none;
+        background-color: red;
+    }
+}
