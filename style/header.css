@@ -73,6 +73,10 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 
 @media screen and (min-width: 1024px) {
 
@@ -127,18 +131,24 @@
 
 @media screen and (min-width:1728px) {
 
-    .opcoes, .opcoes__link {
-        color: pink;
-        display: flex;
-        justify-content: flex-start;
-        
-    }
-    
-    .container-texto__header {
-        
-        
+   .container__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:var(--preto);
+}
 
-        text-decoration: none;
-        background-color: red;
-    }
+.cabecalho {
+    padding: 0 2em;
+}
+
+.opcoes {
+    margin-right: auto;
+}
+
+.container__texto {
+    display: block;
+}
+
+
 }
