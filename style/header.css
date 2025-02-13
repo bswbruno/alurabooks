@@ -126,6 +126,13 @@
 }
 
 @media screen and (min-width:1728px) {
+
+    .opcoes, .opcoes__link {
+        color: pink;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
     
     .container-texto__header {
         
