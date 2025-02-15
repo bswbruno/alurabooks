@@ -147,7 +147,14 @@
     }
 
    .lista-menu__item:hover {
-    background-color: red;
+    background-color: var(--azul-degrade);
+    
+   }
+
+   .lista-menu__item:hover > .lista-menu__item {
+    -webkit-text-fill-color: var(--branco);
+    color: white;
+    text-decoration: none;
     
    }
 
