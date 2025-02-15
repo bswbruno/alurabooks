@@ -138,8 +138,9 @@
     }
 
     .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
-        background-color: var(--azul);
-        color: var(--branco);
+        background-color: var(--azul-degrade);
+        
+        
     }
 
     .opcoes__item {
@@ -147,16 +148,18 @@
     }
 
    .lista-menu__item:hover {
-    background-color: var(--azul-degrade);
+    background: var(--azul-degrade);
     
    }
 
-   .lista-menu__item:hover > .lista-menu__item {
+   .lista-menu__item:hover > .lista-menu__link {
     -webkit-text-fill-color: var(--branco);
-    color: white;
     text-decoration: none;
-    
    }
+
+   
+
+
 
 }
 
